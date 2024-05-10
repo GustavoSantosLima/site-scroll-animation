@@ -11,31 +11,48 @@
     display: none;
   }
 
-  section {
+  .section-screen {
     @apply w-screen h-screen flex items-center justify-center snap-center;
   }
 
-  section:nth-child(1) {
+  .menu-nav {
+    @apply absolute w-60 sm:w-96 h-screen flex items-center justify-center -ml-60 sm:-ml-96 bg-white transition-all duration-700;
+  }
+
+  .menu-nav-open {
+    @apply ml-0;
+  }
+
+  .menu-open {
+    @apply absolute w-10 h-10 m-4 cursor-pointer text-white hover:text-yellow-500 transition-colors duration-300;
+  }
+
+  .menu-close {
+    font-family: var(--font-quicksand);
+    @apply text-3xl text-center scale-x-125 hover:text-yellow-500 transition-colors duration-300;
+  }
+
+  .section-screen:nth-child(1) {
     color: white;
     background-color: #a40b54;
   }
 
-  section:nth-child(2) {
+  .section-screen:nth-child(2) {
     color: white;
     background-color: #e46f0a;
   }
 
-  section:nth-child(3) {
+  .section-screen:nth-child(3) {
     color: white;
     background-color: #11766d;
   }
 
-  section:nth-child(4) {
+  .section-screen:nth-child(4) {
     color: white;
     background-color: #f0b300;
   }
 
-  section:nth-child(5) {
+  .section-screen:nth-child(5) {
     color: white;
     background-color: #410936;
   }
