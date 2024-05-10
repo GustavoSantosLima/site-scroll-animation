@@ -15,7 +15,7 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/site-scroll-animation.git
+https://github.com/GustavoSantosLima/site-scroll-animation.git
 ```
 
 2. Instale as dependências:
