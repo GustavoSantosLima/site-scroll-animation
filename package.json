@@ -1,5 +1,6 @@
 {
   "name": "site-scroll-animation",
+  "description": "A site for scroll animations",
   "version": "0.1.0",
   "private": true,
   "scripts": {
